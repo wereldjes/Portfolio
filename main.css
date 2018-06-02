@@ -1,11 +1,12 @@
 .parralax {
     content: "";
-    position: fixed;
-    left:0;
-    right:0;
-    background-image: url("pictures/hitsugi\ no\ chaika.jpg");
+    position: absolute;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url("pictures/thumb2-programming-program-code-macbook-pro-laptop-apple.jpg");
     height:100%;
     width:100%;
+    transform: scale(1.1);
     filter: blur(10px);
 }
 
@@ -29,6 +30,15 @@
     border-radius: 10px;
 }
 
-.navbar-light .navbar-nav .active>.nav-link {
+.navbar-dark .navbar-nav .active>.nav-link {
     font-size: 20px;
+}
+
+.text-border {
+    color: white;
+    text-shadow: -2px 0 black, 0 2px black, 2px 0 black, 0 -2px black;
+}
+
+body {
+    overflow-x: hidden;
 }
