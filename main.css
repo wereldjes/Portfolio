@@ -26,9 +26,7 @@
 }
 
 .card-box {
-    background-color: #2f3136;
-    color: white;
-    border-radius: 10px;
+    padding: 1%;
 }
 
 .navbar-dark .navbar-nav .active>.nav-link {
@@ -42,5 +40,5 @@
 
 body {
     overflow-x: hidden;
-    background-color:#DCDCDC;
+    background-color:#F5F5F5;
 }

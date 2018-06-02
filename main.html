@@ -12,7 +12,7 @@
     </head>
     <body>
         <div class="parralax"></div>
-        <nav class="navbar navbar-expand-sm transparent navbar-dark">
+        <nav id="navbar" class="navbar navbar-expand-sm transparent navbar-dark">
             <ul class="navbar-nav ml-auto">
                 <li class="nav-item active">
                     <a class="nav-link font-weight-bold text-border" href="#about-me">About</a>
@@ -21,14 +21,14 @@
                     <a class="nav-link font-weight-bold text-border" href="#experience">Experience</a>
                 </li>
                 <li class="nav-item active">
-                    <a class="nav-link font-weight-bold text-border" href="#">Projects</a>
+                    <a class="nav-link font-weight-bold text-border" href="#projects">Projects</a>
                 </li>
                 <li class="nav-item active">
-                    <a class="nav-link font-weight-bold text-border" href="#">Contact</a>
+                    <a class="nav-link font-weight-bold text-border" href="#contact">Contact</a>
                 </li>
             </ul>
         </nav>
-        <div class="container" style="margin-top: 100px">
+        <div class="container-fluid" style="margin-top: 100px">
             <div class="row justify-content-center">
                 <div class="col-5" >
                     <div class="bg-dark" style=" margin:auto; width: 200px; height: 200px; border-radius: 100%">
@@ -37,31 +37,67 @@
                         <h1 class="text-center text-border">Dominique van Voorst</h1>
                         <h5 class="text-center text-border">Software developer</h5>
                     <div>
-                    <div>
+                    <div style="text-align: center">
                         <a href="#"><i class="fab fa-github fa-3x"></i></a>
                         <a href="#"><i class="fab fa-stack-overflow fa-3x"></i></a>
                     </div>
                 </div>
             </div>
         </div>
-            <div class="container">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-md-1"></div>
+                <div class="col-md-10 card-box" style="margin-top: 550px;">
+                    <h1 id="about-me" class="text-block-font-family">About Me</h1>
+                    <p>My name is Dominique van Voorst and this is my portfolio. </br>
+                    I'm an all round developer with a passion for programming who aims to become better in the job he loves to work on.</br>
+                    Because of my passion I always strive to make the best possible applications while involving the team I work with as much as possible. </br>
+                    Every now and then I work on game development as a hobby in the hope to get a job as back end game developer one day.</p>
+                </div>
+                <div class="col-md-1"></div>
+            </div>
+            <div class="row">
+                <div class="col-md-1"></div>
+                <div class="col-10 card-box" style="margin-top: 150px;">
+                    <h1 id="experience" class="text-block-font-family">Experience</h1>
+                    <p>Lorem ipsum</p>
+                </div>
+                <div class="col-md-1"></div>
+            </div>
+            <div class="row">
+                <div class="col-md-1"></div>
+                <div class="col-10 card-box" style="margin-top: 150px;">
+                    <h1 id="projects" class="text-block-font-family">Projects</h1>
+                    <p>Lorem ipsum</p>
+                </div>
+                <div class="col-md-1"></div>
+            </div>
+            <div class="row">
+                <div class="col-md-1"></div>
+                <div class="col-10 card-box" style="margin-top: 150px;">
+                    <h1 id="contact" class="text-block-font-family">Contact</h1>
+                    <p>Lorem ipsum</p>
+                </div>
+                <div class="col-md-1"></div>
+            </div>
+        </div>
+        <footer style="color: white; background-color: #2196f3; height: auto; width: 100%">
+            <div class="container-fluid">
                 <div class="row">
-                    <div class="col-12 card-box" style="margin-top: 550px;">
-                        <h1 id="about-me" class="text-center text-block-font-family">ABOUT ME</h1>
-                        <p>My name is Dominique van Voorst and this is my portfolio. </br>
-                        I'm an all round developer with a passion for programming who aims to become better in the job he loves to work on.</br>
-                        Because of my passion I always strive to make the best possible applications while involving the team I work with as much as possible. </br>
-                        Every now and then I work on game development as a hobby in the hope to get a job as back end game developer one day.</p>
+                    <div class="col-md-2"></div>
+                    <div class="col-md-8" style="padding-top: 10px;">
+                        <ul class="list-unstyled">
+                            <li><a class="text-white" href="#about-me">About</a></li>
+                            <li><a class="text-white" href="#experience">Experience</a></li>
+                            <li><a class="text-white" href="#projects">Projects</a></li>
+                            <li><a class="text-white" href="#contact">Contact</a></li>
+                        </ul>
+                    </div>
+                    <div class="col-md-2" style="position:relative">
+                        <a href="#navbar" class="text-white" style="position:absolute; right:10px ;bottom:0">Back to top</a>
                     </div>
                 </div>
             </div>
-            <div class="container">
-                <div class="row">
-                    <div class="col-12 card-box" style="margin-top: 300px;">
-                        <h1 id="experience" class="text-center text-block-font-family">Experience</h1>
-
-                    </div>
-                </div>
-            </div>
+        </footer>
     </body>
 </html>
