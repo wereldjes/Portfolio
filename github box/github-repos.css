@@ -1,0 +1,43 @@
+.github-box {
+  margin-bottom: 20px;
+}
+
+.github-box .badge {
+  font-size: 100% !important;
+  font-weight: normal !important;
+  min-width: 60px;
+}
+
+.github-box .card-header .title {
+  color: #000;
+}
+
+.github-box .badge a {
+  color: #fff;
+  padding: 2px;
+}
+
+.github-box .card-footer{
+  padding-bottom: 2px;
+}
+
+.language-dot {
+  height: 12.5px;
+  width: 12.5px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+}
+
+.CSS-color {
+  background-color: #563d7c;
+  color: #fff;
+}
+
+.HTML-color {
+  background-color: #e34c26;
+}
+
+.JavaScript-color {
+  background-color: #f1e05a;
+}

@@ -42,3 +42,11 @@ body {
     overflow-x: hidden;
     background-color:#F5F5F5;
 }
+
+.mt-6 {
+    margin-top: 6%;
+}
+
+.mt-35 {
+    margin-top: 35%;
+}
