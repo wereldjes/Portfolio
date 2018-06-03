@@ -1,22 +1,24 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 
 <head>
+    <title>Portfolio Dominique</title>
     <!-- Stylesheet links-->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css">
     <link rel="stylesheet" type="text/css" href="index.css">
     <link rel="stylesheet" href="font-mfizz-2.4.1/font-mfizz.css">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css">
-    <link rel="stylesheet" href="github box/github-repos.css">
+    <link rel="stylesheet" href="github-box/github-repos.css">
     <!-- Script includes-->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.0/js/bootstrap.min.js"></script>
-    <script src="github box/github-repos.js"></script>
+    <script src="github-box/github-repos.js"></script>
     <script src="index.js"></script>
     <!-- Meta data -->
-    <meta name="author" content="Dominique van Voorst">
-    <meta name="description" content="Portfolio of Dominique">
-    <meta name="keywords" content="programming, javascript, html, css, java, c++ ,cpp">
+    <meta charset="UTF-8">
+    <meta name="author" content="Dominique van Voorst"/>
+    <meta name="description" content="Portfolio of Dominique"/>
+    <meta name="theme-color" content="#007bff"/>
 </head>
 
 <body>
@@ -42,7 +44,7 @@
         <div class="row justify-content-center">
             <div class="col-5">
                 <div class="bg-dark" style=" margin:auto; width: 200px; height: 200px; border-radius: 100%">
-                        <img src="pictures/profile-picture2.jpg" alt="Profile picture">
+                    <img src="pictures/profile-picture2.jpg" alt="Profile picture">
                 </div>
                 <div>
                     <h1 class="text-center text-border">Dominique van Voorst</h1>
@@ -62,11 +64,12 @@
                     <div class="col-md-1"></div>
                     <div class="col-md-10">
                         <h1 id="about-me" class="text-block-font-family">About Me</h1>
-                        <p>My name is Dominique van Voorst and this is my portfolio. </br>
-                            I'm an all round developer with a passion for programming who aims to become better in the job he loves to work on.</br>
-                            Because of my passion I always strive to make the best possible applications while involving the team I work with as much
-                            as possible. </br>
-                            Every now and then I work on game development as a hobby.</p>
+                        <p>My name is Dominique van Voorst and this is my portfolio.
+                            <br> I'm an all round developer with a passion for programming who aims to become better in the job
+                            he loves to work on.
+                            <br> Because of my passion I always strive to make the best possible applications while involving
+                            the team I work with as much as possible.
+                            <br> Every now and then I work on game development as a hobby.</p>
                     </div>
                     <div class="col-md-1"></div>
                 </div>
@@ -239,33 +242,42 @@
                     </div>
                 </div>
             </div>
-            <!-- Back to Top button -->
-            <a style="text-decoration: none" href="#navbar" class="scroll-to-top"><i class="fas fa-arrow-up fa-2x"></i></a>
-            <!-- Footer of the webpage-->
-            <footer style="color: white; margin-top: 100px; background-color: #2196f3; height: auto; width: 100%">
-                <div class="container-fluid">
-                    <div class="row">
-                        <div class="col-md-2">
-                        </div>
-                        <div class="col pt-3">
-                            <h3 id="contact">Contact Information</h3>
-                            <ul class="no-list-style">
-                                <li><i class="fas fa-phone-square"></i> +31622447562</li>
-                                <li><i class="fas fa-envelope-square"></i> Dominique_voorst@hotmail.com</li>
-                            </ul>
-                        </div>
-                        <div class="col pt-3">
-                            <h3>Online Profiles</h3>
-                            <ul class="no-list-style">
-                                <li><a class="text-white" href="#"><i class="fab fa-github-square"></i> Github</a></li>
-                            </ul>
-                        </div>
-                        <div class="col-md-2">
-                        </div>
-                    </div>
+        </div>
+    </div>
+    <!-- Back to Top button -->
+    <a style="text-decoration: none" href="#navbar" class="scroll-to-top">
+        <i class="fas fa-arrow-up fa-2x"></i>
+    </a>
+    <!-- Footer of the webpage-->
+    <footer style="color: white; margin-top: 100px; background-color: #2196f3; height: auto; width: 100%">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-md-2">
                 </div>
-            </footer>
-            <script>GHRepos.create('.projects a')</script>
+                <div class="col pt-3">
+                    <h3 id="contact">Contact Information</h3>
+                    <ul class="no-list-style">
+                        <li>
+                            <i class="fas fa-phone-square"></i> +31622447562</li>
+                        <li>
+                            <i class="fas fa-envelope-square"></i> Dominique_voorst@hotmail.com</li>
+                    </ul>
+                </div>
+                <div class="col pt-3">
+                    <h3>Online Profiles</h3>
+                    <ul class="no-list-style">
+                        <li>
+                            <a class="text-white" href="#">
+                                <i class="fab fa-github-square"></i> Github</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="col-md-2">
+                </div>
+            </div>
+        </div>
+    </footer>
+    <script>GHRepos.create('.projects a')</script>
 </body>
 
 </html>
