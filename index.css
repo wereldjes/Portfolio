@@ -50,3 +50,7 @@ body {
 .mt-35 {
     margin-top: 35%;
 }
+
+.no-list-style {
+    list-style: none;
+}

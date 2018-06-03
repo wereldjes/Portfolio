@@ -12,6 +12,7 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.0/js/bootstrap.min.js"></script>
     <script src="github box/github-repos.js"></script>
+    <script src="index.js"></script>
     <!-- Meta data -->
     <meta name="author" content="Dominique van Voorst">
     <meta name="description" content="Portfolio of Dominique">
@@ -24,16 +25,16 @@
     <nav id="navbar" class="navbar navbar-expand-sm transparent navbar-dark">
         <ul class="navbar-nav ml-auto">
             <li class="nav-item active">
-                <a class="nav-link font-weight-bold text-border" href="#about-me">About</a>
+                <a class="nav-link font-weight-bold text-border scrollLink" href="#about-me">About</a>
             </li>
             <li class="nav-item active">
-                <a class="nav-link font-weight-bold text-border" href="#experience">Experience</a>
+                <a class="nav-link font-weight-bold text-border scrollLink" href="#experience">Experience</a>
             </li>
             <li class="nav-item active">
-                <a class="nav-link font-weight-bold text-border" href="#projects">Projects</a>
+                <a class="nav-link font-weight-bold text-border scrollLink" href="#projects">Projects</a>
             </li>
             <li class="nav-item active">
-                <a class="nav-link font-weight-bold text-border" href="#contact">Contact</a>
+                <a class="nav-link font-weight-bold text-border scrollLink" href="#contact">Contact</a>
             </li>
         </ul>
     </nav>
@@ -236,48 +237,27 @@
                     <div class="col-md-1">
                     </div>
                 </div>
-                <div class="row mt-6">
-                    <div class="col-md-1"></div>
-                    <div class="col-md-10">
-                        <h1 id="contact" class="text-block-font-family">Contact</h1>
-                        <div class="col-md-5" style="margin: 0 auto">
-                            <form>
-                                <div class="form-group">
-                                    <input class="form-control" placeholder="Email adress"></input>
-                                </div>
-                                <div class="form-group">
-                                    <textarea class="form-control" rows="5" placeholder="type your message"></textarea>
-                                </div>
-                                <button type="submit" class="btn btn-success btn-block">Send email</button>
-                            </form>
-                        </div>
-                    </div>
-                    <div class="col-md-1"></div>
-                </div>
             </div>
             <!-- Footer of the webpage-->
             <footer style="color: white; margin-top: 100px; background-color: #2196f3; height: auto; width: 100%">
                 <div class="container-fluid">
                     <div class="row">
-                        <div class="col-md-2"></div>
-                        <div class="col-md-8" style="padding-top: 10px;">
-                            <ul class="list-unstyled">
-                                <li>
-                                    <a class="text-white" href="#about-me">About</a>
-                                </li>
-                                <li>
-                                    <a class="text-white" href="#experience">Experience</a>
-                                </li>
-                                <li>
-                                    <a class="text-white" href="#projects">Projects</a>
-                                </li>
-                                <li>
-                                    <a class="text-white" href="#contact">Contact</a>
-                                </li>
+                        <div class="col-md-2">
+                        </div>
+                        <div class="col pt-3">
+                            <h3 id="contact">Contact Information</h3>
+                            <ul class="no-list-style">
+                                <li><i class="fas fa-phone-square"></i> +31622447562</li>
+                                <li><i class="fas fa-envelope-square"></i> Dominique_voorst@hotmail.com</li>
                             </ul>
                         </div>
-                        <div class="col-md-2" style="position:relative">
-                            <a href="#navbar" class="text-white" style="position:absolute; right:10px ;bottom:0">Back to top</a>
+                        <div class="col pt-3">
+                            <h3>Online Profiles</h3>
+                            <ul class="no-list-style">
+                                <li><a class="text-white" href="#"><i class="fab fa-github-square"></i> Github</a></li>
+                            </ul>
+                        </div>
+                        <div class="col-md-2">
                         </div>
                     </div>
                 </div>
