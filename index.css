@@ -1,14 +1,10 @@
-.parralax {
-    content: "";
-    position: absolute;
-    background-position: center center;
+.parallax {
+    background-attachment: fixed;
+    background-image: url("pictures/thumb2-programming-program-code-macbook-pro-laptop-apple.jpg");
+    background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    background-image: url("pictures/thumb2-programming-program-code-macbook-pro-laptop-apple.jpg");
     height:100vh;
-    width:100%;
-    transform: scale(1.1);
-    filter: blur(10px);
 }
 
 .navbar.transparent {
@@ -39,7 +35,6 @@
 }
 
 body {
-    overflow-x: hidden;
     background-color:#F5F5F5;
 }
 
@@ -82,4 +77,13 @@ img {
     width: 100%;
     height: 100%;
     border-radius: 100%;
+}
+
+.footer {
+    color:white;
+    margin-top: 100px;
+    background-color: #2196f3;
+    height: auto;
+    width: 100%;
+    overflow:hidden;
 }
