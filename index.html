@@ -22,34 +22,34 @@
 </head>
 
 <body>
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarToggler" aria-controls="navbarToggler"
+            aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarToggler">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item active">
+                    <a class="nav-link font-weight-bold scrollLink" href="#about-me">About</a>
+                </li>
+                <li class="nav-item active">
+                    <a class="nav-link font-weight-bold scrollLink" href="#experience">Experience</a>
+                </li>
+                <li class="nav-item active">
+                    <a class="nav-link font-weight-bold scrollLink" href="#projects">Projects</a>
+                </li>
+                <li class="nav-item active">
+                    <a class="nav-link font-weight-bold scrollLink" href="#contact">Contact</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
     <div class="parallax">
-        <!-- Navbar -->
-        <nav id="navbar" class="navbar navbar-expand-sm transparent navbar-dark">
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo01" aria-controls="navbarTogglerDemo01"
-                aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
-                <ul class="navbar-nav ml-auto">
-                    <li class="nav-item active">
-                        <a class="nav-link font-weight-bold text-border scrollLink" href="#about-me">About</a>
-                    </li>
-                    <li class="nav-item active">
-                        <a class="nav-link font-weight-bold text-border scrollLink" href="#experience">Experience</a>
-                    </li>
-                    <li class="nav-item active">
-                        <a class="nav-link font-weight-bold text-border scrollLink" href="#projects">Projects</a>
-                    </li>
-                    <li class="nav-item active">
-                        <a class="nav-link font-weight-bold text-border scrollLink" href="#contact">Contact</a>
-                    </li>
-                </ul>
-            </div>
-        </nav>
         <!-- Personal intro -->
         <div class="container-fluid">
             <div class="row justify-content-center">
-                <div class="text-center" style="margin-top: 5%">
+                <div class="text-center" style="margin-top: 10%">
                     <img src="pictures/profile-picture2.jpg" alt="Profile picture">
                     <div>
                         <h1 class="text-center text-border">Dominique van Voorst</h1>
@@ -107,7 +107,7 @@
         <div class="row">
             <div class="col-md-1">
             </div>
-            <div class="col-md-2 d-flex align-items-stretch">
+            <div class="col-md d-flex align-items-stretch">
                 <div class="card ">
                     <h5 class="card-header">
                         <i class="icon-java" style="font-size: 35px"></i>Java
@@ -122,7 +122,7 @@
                     </div>
                 </div>
             </div>
-            <div class="col-md-2 d-flex align-items-stretch">
+            <div class="col-md d-flex align-items-stretch">
                 <div class="card">
                     <h5 class="card-header">
                         <i class="icon-html5-alt" style="font-size: 35px"></i>HTML5 &
@@ -139,7 +139,7 @@
                     </div>
                 </div>
             </div>
-            <div class="col-md-2 d-flex align-items-stretch">
+            <div class="col-md d-flex align-items-stretch">
                 <div class="card">
                     <h5 class="card-header">
                         <i class="fab fa-js-square fa-2x"></i> Javascript
@@ -155,7 +155,7 @@
                     </div>
                 </div>
             </div>
-            <div class="col-md-2 d-flex align-items-stretch">
+            <div class="col-md d-flex align-items-stretch">
                 <div class="card">
                     <h5 class="card-header">
                         <i class="icon-ruby" style="font-size: 35px"></i> Ruby
@@ -170,28 +170,13 @@
                     </div>
                 </div>
             </div>
-            <div class="col-md-2 d-flex align-items-stretch">
-                <div class="card">
-                    <h5 class="card-header">
-                        <i class="icon-cplusplus" style="font-size: 35px"></i> Cpp
-                    </h5>
-                    <div class="card-body">
-                        <p class="card-text">
-                            only a few months of experience while using the SFML library to build my first game in Cpp.
-                        </p>
-                    </div>
-                    <div class="card-footer">
-                        C++, SFML
-                    </div>
-                </div>
-            </div>
             <div class="col-md-1">
             </div>
         </div>
         <div class="row mt-4">
             <div class="col-md-1">
             </div>
-            <div class="col-md-2 d-flex align-items-stretch">
+            <div class="col-md d-flex align-items-stretch">
                 <div class="card">
                     <h5 class="card-header">
                         <i class="icon-mysql" style="font-size: 35px"></i> MySQL
@@ -206,7 +191,7 @@
                     </div>
                 </div>
             </div>
-            <div class="col-md-2 d-flex align-items-stretch">
+            <div class="col-md d-flex align-items-stretch">
                 <div class="card">
                     <h5 class="card-header">
                         <i class="icon-csharp" style="font-size:35px"></i> C#
@@ -221,11 +206,22 @@
                     </div>
                 </div>
             </div>
-            <div class="col-md-2">
+            <div class="col-md d-flex align-items-stretch">
+                <div class="card">
+                    <h5 class="card-header">
+                        <i class="icon-cplusplus" style="font-size: 35px"></i> Cpp
+                    </h5>
+                    <div class="card-body">
+                        <p class="card-text">
+                            only a few months of experience while using the SFML library to build my first game in Cpp.
+                        </p>
+                    </div>
+                    <div class="card-footer">
+                        C++, SFML
+                    </div>
+                </div>
             </div>
-            <div class="col-md-2">
-            </div>
-            <div class="col-md-2">
+            <div class="col-md">
             </div>
             <div class="col-md-1">
             </div>
